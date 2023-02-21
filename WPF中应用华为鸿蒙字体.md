@@ -28,7 +28,9 @@
 
 至此，鸿蒙字体资源即配置完成，后面在任何控件上设置字体属性为**Harmony**静态资源即可，例如：
 
-> <TextBlock FontFamily="{StaticResource Harmony}" Text="构建万物互联的智能世界" />
+```c#
+<TextBlock FontFamily="{StaticResource Harmony}" Text="构建万物互联的智能世界" />
+```
 
 ### 设置默认字体
 
